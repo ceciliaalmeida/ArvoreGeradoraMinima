@@ -6,11 +6,11 @@ public class PrimFibraOptica {
     private static final int INF = Integer.MAX_VALUE;
 
 //  Procura o vértice com menor chave que ainda não foi incluído na AGM
-    private static int menorChave(int[] key, boolean[] mstSet, int V) {
+    private static int menorChave(int[] key, boolean[] agmSet, int V) {
         int min = INF, minIndex = -1;
 
         for (int v = 0; v < V; v++) {
-            if (!mstSet[v] && key[v] < min) {
+            if (!agmSet[v] && key[v] < min) {
                 min = key[v];
                 minIndex = v;
             }
