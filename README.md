@@ -8,7 +8,7 @@
 
 **Alunos:**  
 - Cecília  
-- Lizar  
+- Liza
 - Marckson Fábio  
 
 ---
